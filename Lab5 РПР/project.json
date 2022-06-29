@@ -1,0 +1,82 @@
+{
+  "name": "Lab5",
+  "description": "Пустой процесс",
+  "main": "5ExtractData.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.11.4]",
+    "UiPath.Mail.Activities": "[1.12.3]",
+    "UiPath.System.Activities": "[21.10.4]",
+    "UiPath.UIAutomation.Activities": "[21.10.5]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.10.5.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "1FromWebToExcel.xaml",
+      "uniqueId": "7904a44d-38d6-4d06-bb2a-9d87de86e895",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "2FromTableToWeb.xaml",
+      "uniqueId": "3788c66b-1b66-47d7-9eef-6c78ae2195a1",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "3AnchorBase.xaml",
+      "uniqueId": "0e27b7a9-1e4d-4cf0-a36a-6db4a60b4c5a",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "4ArticleEconomic.xaml",
+      "uniqueId": "839c3725-4d24-47bf-a01f-9238b8257902",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "5ExtractData.xaml",
+      "uniqueId": "91083959-4bc1-4544-9aed-5df90c78a4b9",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}

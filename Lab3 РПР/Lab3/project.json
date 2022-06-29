@@ -1,0 +1,84 @@
+{
+  "name": "Laba3",
+  "description": "Пустой процесс",
+  "main": "5Table.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.11.4]",
+    "UiPath.Mail.Activities": "[1.12.3]",
+    "UiPath.PDF.Activities": "[3.5.0-preview]",
+    "UiPath.System.Activities": "[21.10.4]",
+    "UiPath.UIAutomation.Activities": "[21.10.5]",
+    "UiPath.Word.Activities": "[1.9.0-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.10.5.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "1ExcelProc.xaml",
+      "uniqueId": "2d57059f-3fdc-485e-9584-f81e367ce52c",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "2FilterExcel.xaml",
+      "uniqueId": "818f25ca-6ef6-4af5-8bb1-4abe2a9502e5",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "3WordToPdf.xaml",
+      "uniqueId": "2a2a1201-ed70-40aa-b97e-b22a8f507c08",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "4SimplePdf.xaml",
+      "uniqueId": "90f12a8a-52b5-403b-8317-dc2d0f5dd759",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "5Table.xaml",
+      "uniqueId": "62efd99a-76c0-49e7-bed4-1f9158fde434",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
